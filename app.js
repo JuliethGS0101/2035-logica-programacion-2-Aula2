@@ -8,8 +8,13 @@ function asignarTexto(elemento, texto){
     return;
 
 }
-function intentoUsuario(){
-    alert('Click desde el boton');
+function verificarUsuario(){
+    let numeroUsuario = parseInt(document.getElementById('valorUsuario').Value);
+    console.log(typeof(numeroUsuario));
+    console.log(numeroSecreto);
+    console.log(typeof(numeroSecreto));
+    console.log(numeroUsuario);
+    console.log(numeroUsuario === numeroSecreto);
     return;
 }
 
@@ -20,3 +25,4 @@ function generarNumeroSecreto() {
 
 asignarTexto('h1', 'Juego del numero secreto');
 asignarTexto('p', 'Indica un numero del 1 al 10');
+ 
