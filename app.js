@@ -1,5 +1,5 @@
 let numeroSecreto = 0;
-let intentos = 1B;
+let intentos = 0;
 console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {
@@ -53,7 +53,7 @@ function reiniciarJuego() {
     // inicializar el nuemro de intentos
     condicionesIniciales();
     // deshabilitar el boton de nuevo juego
-    
+    document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 
 
 }
